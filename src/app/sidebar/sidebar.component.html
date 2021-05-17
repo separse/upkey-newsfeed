@@ -1,0 +1,11 @@
+<section>
+  <ul>
+    <a [routerLink]="['/feed/' + friend.name]" *ngFor="let friend of friends">
+      <li>
+        <div><img [src]="friend.imagePath" /></div>
+        <p>{{ friend.name }}</p>
+      </li>
+    </a>
+  </ul>
+  <button>Show All</button>
+</section>

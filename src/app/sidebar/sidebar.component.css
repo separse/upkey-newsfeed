@@ -1,0 +1,70 @@
+section {
+  background-color: #fcfcfc;
+  width: 250px;
+}
+
+section ul {
+  margin: 0;
+  padding: 0;
+}
+
+section ul a {
+  text-decoration: none;
+}
+
+section ul li {
+  list-style-type: none;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+}
+
+section ul a:first-child {
+  border-top: none;
+}
+
+section ul a li:hover {
+  background-color: #f5f5f5;
+}
+
+section ul li div img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+section ul li p {
+  font-size: 20px;
+  color: rgb(37, 37, 37);
+  margin-left: 1rem;
+}
+
+section button {
+  font-size: 25px;
+  font-weight: 500;
+  width: 100%;
+  background-color: #505fee;
+  color: #fcfcfc;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+section button:hover {
+  background-color: #4949ba;
+}
+
+@media (max-width: 575px) {
+  section {
+    width: 65px;
+  }
+
+  section ul li p {
+    display: none;
+  }
+  section button {
+    font-size: 13px;
+    font-weight: 300;
+    height: 30px;
+  }
+}
